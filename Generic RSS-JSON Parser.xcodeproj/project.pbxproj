@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416ACE0F1A77B1BF0085FC1D /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ACE0C1A77B1BF0085FC1D /* Jastor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		416ACE101A77B1BF0085FC1D /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ACE0E1A77B1BF0085FC1D /* JastorRuntimeHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		416ACE161A77B2AF0085FC1D /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ACE151A77B2AF0085FC1D /* Channel.m */; };
+		416ACE191A77C66F0085FC1D /* RSS_Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ACE181A77C66F0085FC1D /* RSS_Item.m */; };
+		416ACE1C1A77CDEC0085FC1D /* StringObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ACE1B1A77CDEC0085FC1D /* StringObject.m */; };
+		416ACE1F1A77DADA0085FC1D /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ACE1E1A77DADA0085FC1D /* Item.m */; };
+		41C2694C1A777251009DDFF3 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2694B1A777251009DDFF3 /* Parser.m */; };
+		41C7DA111A7B7D880086B29A /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C7DA061A7B7D880086B29A /* NSObject+SBJSON.m */; };
+		41C7DA121A7B7D880086B29A /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C7DA081A7B7D880086B29A /* NSString+SBJSON.m */; };
+		41C7DA131A7B7D880086B29A /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C7DA0A1A7B7D880086B29A /* SBJSON.m */; };
+		41C7DA141A7B7D880086B29A /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C7DA0C1A7B7D880086B29A /* SBJsonBase.m */; };
+		41C7DA151A7B7D880086B29A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C7DA0E1A7B7D880086B29A /* SBJsonParser.m */; };
+		41C7DA161A7B7D880086B29A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C7DA101A7B7D880086B29A /* SBJsonWriter.m */; };
+		41C7DA191A7B84C10086B29A /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C7DA181A7B84C10086B29A /* Weather.m */; };
+		41CD2A6C1A7A879F00ADD382 /* MyChanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD2A6B1A7A879F00ADD382 /* MyChanel.m */; };
+		41D097DA1A76914F00980670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D097D91A76914F00980670 /* main.m */; };
+		41D097DD1A76914F00980670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D097DC1A76914F00980670 /* AppDelegate.m */; };
+		41D097E01A76914F00980670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D097DF1A76914F00980670 /* ViewController.m */; };
+		41D097E31A76914F00980670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D097E11A76914F00980670 /* Main.storyboard */; };
+		41D097E51A76914F00980670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D097E41A76914F00980670 /* Images.xcassets */; };
+		41D097E81A76914F00980670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D097E61A76914F00980670 /* LaunchScreen.xib */; };
+		41D097F41A76914F00980670 /* Generic_RSS_JSON_ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D097F31A76914F00980670 /* Generic_RSS_JSON_ParserTests.m */; };
+		DB078F7FC4536C7306582BD9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B13E91D0BAE348D879C918AB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41D097EE1A76914F00980670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D097CC1A76914F00980670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D097D31A76914F00980670;
+			remoteInfo = "Generic RSS-JSON Parser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		416ACE0A1A77B1BF0085FC1D /* Jastor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Jastor-Prefix.pch"; sourceTree = "<group>"; };
+		416ACE0B1A77B1BF0085FC1D /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		416ACE0C1A77B1BF0085FC1D /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		416ACE0D1A77B1BF0085FC1D /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		416ACE0E1A77B1BF0085FC1D /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		416ACE141A77B2AF0085FC1D /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		416ACE151A77B2AF0085FC1D /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		416ACE171A77C66F0085FC1D /* RSS_Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSS_Item.h; sourceTree = "<group>"; };
+		416ACE181A77C66F0085FC1D /* RSS_Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSS_Item.m; sourceTree = "<group>"; };
+		416ACE1A1A77CDEC0085FC1D /* StringObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringObject.h; sourceTree = "<group>"; };
+		416ACE1B1A77CDEC0085FC1D /* StringObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringObject.m; sourceTree = "<group>"; };
+		416ACE1D1A77DADA0085FC1D /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		416ACE1E1A77DADA0085FC1D /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		41C2694A1A777251009DDFF3 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		41C2694B1A777251009DDFF3 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		41C7DA041A7B7D880086B29A /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		41C7DA051A7B7D880086B29A /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		41C7DA061A7B7D880086B29A /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		41C7DA071A7B7D880086B29A /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		41C7DA081A7B7D880086B29A /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		41C7DA091A7B7D880086B29A /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		41C7DA0A1A7B7D880086B29A /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		41C7DA0B1A7B7D880086B29A /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		41C7DA0C1A7B7D880086B29A /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		41C7DA0D1A7B7D880086B29A /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		41C7DA0E1A7B7D880086B29A /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		41C7DA0F1A7B7D880086B29A /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		41C7DA101A7B7D880086B29A /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		41C7DA171A7B84C10086B29A /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		41C7DA181A7B84C10086B29A /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		41CD2A6A1A7A879F00ADD382 /* MyChanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChanel.h; sourceTree = "<group>"; };
+		41CD2A6B1A7A879F00ADD382 /* MyChanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChanel.m; sourceTree = "<group>"; };
+		41D097D41A76914F00980670 /* Generic RSS-JSON Parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generic RSS-JSON Parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D097D81A76914F00980670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D097D91A76914F00980670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41D097DB1A76914F00980670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41D097DC1A76914F00980670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41D097DE1A76914F00980670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41D097DF1A76914F00980670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41D097E21A76914F00980670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41D097E41A76914F00980670 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41D097E71A76914F00980670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		41D097ED1A76914F00980670 /* Generic RSS-JSON ParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generic RSS-JSON ParserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D097F21A76914F00980670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D097F31A76914F00980670 /* Generic_RSS_JSON_ParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Generic_RSS_JSON_ParserTests.m; sourceTree = "<group>"; };
+		A8D49F6055E6AC8E30E7BEEE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B13E91D0BAE348D879C918AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA4CCB26FDB36F39B01746E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41D097D11A76914F00980670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB078F7FC4536C7306582BD9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D097EA1A76914F00980670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416ACE081A77B1AB0085FC1D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				41C7DA031A7B7D880086B29A /* SBJSON */,
+				416ACE091A77B1BF0085FC1D /* Jastor */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		416ACE091A77B1BF0085FC1D /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				416ACE0A1A77B1BF0085FC1D /* Jastor-Prefix.pch */,
+				416ACE0B1A77B1BF0085FC1D /* Jastor.h */,
+				416ACE0C1A77B1BF0085FC1D /* Jastor.m */,
+				416ACE0D1A77B1BF0085FC1D /* JastorRuntimeHelper.h */,
+				416ACE0E1A77B1BF0085FC1D /* JastorRuntimeHelper.m */,
+			);
+			path = Jastor;
+			sourceTree = "<group>";
+		};
+		41C269491A777203009DDFF3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				41C2694A1A777251009DDFF3 /* Parser.h */,
+				41C2694B1A777251009DDFF3 /* Parser.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		41C2694D1A77A9E5009DDFF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				416ACE141A77B2AF0085FC1D /* Channel.h */,
+				416ACE151A77B2AF0085FC1D /* Channel.m */,
+				416ACE171A77C66F0085FC1D /* RSS_Item.h */,
+				416ACE181A77C66F0085FC1D /* RSS_Item.m */,
+				416ACE1A1A77CDEC0085FC1D /* StringObject.h */,
+				416ACE1B1A77CDEC0085FC1D /* StringObject.m */,
+				416ACE1D1A77DADA0085FC1D /* Item.h */,
+				416ACE1E1A77DADA0085FC1D /* Item.m */,
+				41CD2A6A1A7A879F00ADD382 /* MyChanel.h */,
+				41CD2A6B1A7A879F00ADD382 /* MyChanel.m */,
+				41C7DA171A7B84C10086B29A /* Weather.h */,
+				41C7DA181A7B84C10086B29A /* Weather.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41C7DA031A7B7D880086B29A /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				41C7DA041A7B7D880086B29A /* JSON.h */,
+				41C7DA051A7B7D880086B29A /* NSObject+SBJSON.h */,
+				41C7DA061A7B7D880086B29A /* NSObject+SBJSON.m */,
+				41C7DA071A7B7D880086B29A /* NSString+SBJSON.h */,
+				41C7DA081A7B7D880086B29A /* NSString+SBJSON.m */,
+				41C7DA091A7B7D880086B29A /* SBJSON.h */,
+				41C7DA0A1A7B7D880086B29A /* SBJSON.m */,
+				41C7DA0B1A7B7D880086B29A /* SBJsonBase.h */,
+				41C7DA0C1A7B7D880086B29A /* SBJsonBase.m */,
+				41C7DA0D1A7B7D880086B29A /* SBJsonParser.h */,
+				41C7DA0E1A7B7D880086B29A /* SBJsonParser.m */,
+				41C7DA0F1A7B7D880086B29A /* SBJsonWriter.h */,
+				41C7DA101A7B7D880086B29A /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
+		41D097CB1A76914F00980670 = {
+			isa = PBXGroup;
+			children = (
+				41D097D61A76914F00980670 /* Generic RSS-JSON Parser */,
+				41D097F01A76914F00980670 /* Generic RSS-JSON ParserTests */,
+				41D097D51A76914F00980670 /* Products */,
+				56FCC8DF0BBE1D4971A0ECF1 /* Pods */,
+				4C56FD1F9DC9989368FF6670 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41D097D51A76914F00980670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41D097D41A76914F00980670 /* Generic RSS-JSON Parser.app */,
+				41D097ED1A76914F00980670 /* Generic RSS-JSON ParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41D097D61A76914F00980670 /* Generic RSS-JSON Parser */ = {
+			isa = PBXGroup;
+			children = (
+				416ACE081A77B1AB0085FC1D /* Utils */,
+				41C2694D1A77A9E5009DDFF3 /* Models */,
+				41C269491A777203009DDFF3 /* Service */,
+				41D097DB1A76914F00980670 /* AppDelegate.h */,
+				41D097DC1A76914F00980670 /* AppDelegate.m */,
+				41D097DE1A76914F00980670 /* ViewController.h */,
+				41D097DF1A76914F00980670 /* ViewController.m */,
+				41D097E11A76914F00980670 /* Main.storyboard */,
+				41D097E41A76914F00980670 /* Images.xcassets */,
+				41D097E61A76914F00980670 /* LaunchScreen.xib */,
+				41D097D71A76914F00980670 /* Supporting Files */,
+			);
+			path = "Generic RSS-JSON Parser";
+			sourceTree = "<group>";
+		};
+		41D097D71A76914F00980670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41D097D81A76914F00980670 /* Info.plist */,
+				41D097D91A76914F00980670 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41D097F01A76914F00980670 /* Generic RSS-JSON ParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				41D097F31A76914F00980670 /* Generic_RSS_JSON_ParserTests.m */,
+				41D097F11A76914F00980670 /* Supporting Files */,
+			);
+			path = "Generic RSS-JSON ParserTests";
+			sourceTree = "<group>";
+		};
+		41D097F11A76914F00980670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41D097F21A76914F00980670 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C56FD1F9DC9989368FF6670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13E91D0BAE348D879C918AB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56FCC8DF0BBE1D4971A0ECF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49F6055E6AC8E30E7BEEE /* Pods.debug.xcconfig */,
+				BCA4CCB26FDB36F39B01746E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41D097D31A76914F00980670 /* Generic RSS-JSON Parser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D097F71A76914F00980670 /* Build configuration list for PBXNativeTarget "Generic RSS-JSON Parser" */;
+			buildPhases = (
+				C34DEA62B662F276E00EA6F0 /* Check Pods Manifest.lock */,
+				41D097D01A76914F00980670 /* Sources */,
+				41D097D11A76914F00980670 /* Frameworks */,
+				41D097D21A76914F00980670 /* Resources */,
+				5E0B18943C4E54601DCA812C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Generic RSS-JSON Parser";
+			productName = "Generic RSS-JSON Parser";
+			productReference = 41D097D41A76914F00980670 /* Generic RSS-JSON Parser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41D097EC1A76914F00980670 /* Generic RSS-JSON ParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D097FA1A76914F00980670 /* Build configuration list for PBXNativeTarget "Generic RSS-JSON ParserTests" */;
+			buildPhases = (
+				41D097E91A76914F00980670 /* Sources */,
+				41D097EA1A76914F00980670 /* Frameworks */,
+				41D097EB1A76914F00980670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D097EF1A76914F00980670 /* PBXTargetDependency */,
+			);
+			name = "Generic RSS-JSON ParserTests";
+			productName = "Generic RSS-JSON ParserTests";
+			productReference = 41D097ED1A76914F00980670 /* Generic RSS-JSON ParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41D097CC1A76914F00980670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "AYLON-4";
+				TargetAttributes = {
+					41D097D31A76914F00980670 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9538R6D8D2;
+					};
+					41D097EC1A76914F00980670 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 41D097D31A76914F00980670;
+					};
+				};
+			};
+			buildConfigurationList = 41D097CF1A76914F00980670 /* Build configuration list for PBXProject "Generic RSS-JSON Parser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41D097CB1A76914F00980670;
+			productRefGroup = 41D097D51A76914F00980670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41D097D31A76914F00980670 /* Generic RSS-JSON Parser */,
+				41D097EC1A76914F00980670 /* Generic RSS-JSON ParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D097D21A76914F00980670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D097E31A76914F00980670 /* Main.storyboard in Resources */,
+				41D097E81A76914F00980670 /* LaunchScreen.xib in Resources */,
+				41D097E51A76914F00980670 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D097EB1A76914F00980670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E0B18943C4E54601DCA812C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C34DEA62B662F276E00EA6F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D097D01A76914F00980670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C7DA191A7B84C10086B29A /* Weather.m in Sources */,
+				416ACE1F1A77DADA0085FC1D /* Item.m in Sources */,
+				416ACE101A77B1BF0085FC1D /* JastorRuntimeHelper.m in Sources */,
+				41C2694C1A777251009DDFF3 /* Parser.m in Sources */,
+				41D097E01A76914F00980670 /* ViewController.m in Sources */,
+				416ACE0F1A77B1BF0085FC1D /* Jastor.m in Sources */,
+				41C7DA151A7B7D880086B29A /* SBJsonParser.m in Sources */,
+				416ACE161A77B2AF0085FC1D /* Channel.m in Sources */,
+				416ACE1C1A77CDEC0085FC1D /* StringObject.m in Sources */,
+				41C7DA141A7B7D880086B29A /* SBJsonBase.m in Sources */,
+				416ACE191A77C66F0085FC1D /* RSS_Item.m in Sources */,
+				41D097DD1A76914F00980670 /* AppDelegate.m in Sources */,
+				41CD2A6C1A7A879F00ADD382 /* MyChanel.m in Sources */,
+				41C7DA131A7B7D880086B29A /* SBJSON.m in Sources */,
+				41C7DA121A7B7D880086B29A /* NSString+SBJSON.m in Sources */,
+				41C7DA111A7B7D880086B29A /* NSObject+SBJSON.m in Sources */,
+				41D097DA1A76914F00980670 /* main.m in Sources */,
+				41C7DA161A7B7D880086B29A /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D097E91A76914F00980670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D097F41A76914F00980670 /* Generic_RSS_JSON_ParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41D097EF1A76914F00980670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D097D31A76914F00980670 /* Generic RSS-JSON Parser */;
+			targetProxy = 41D097EE1A76914F00980670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41D097E11A76914F00980670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D097E21A76914F00980670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41D097E61A76914F00980670 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D097E71A76914F00980670 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41D097F51A76914F00980670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41D097F61A76914F00980670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D097F81A76914F00980670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D49F6055E6AC8E30E7BEEE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Generic RSS-JSON Parser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		41D097F91A76914F00980670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA4CCB26FDB36F39B01746E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Generic RSS-JSON Parser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		41D097FB1A76914F00980670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Generic RSS-JSON ParserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Generic RSS-JSON Parser.app/Generic RSS-JSON Parser";
+			};
+			name = Debug;
+		};
+		41D097FC1A76914F00980670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Generic RSS-JSON ParserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Generic RSS-JSON Parser.app/Generic RSS-JSON Parser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41D097CF1A76914F00980670 /* Build configuration list for PBXProject "Generic RSS-JSON Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D097F51A76914F00980670 /* Debug */,
+				41D097F61A76914F00980670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D097F71A76914F00980670 /* Build configuration list for PBXNativeTarget "Generic RSS-JSON Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D097F81A76914F00980670 /* Debug */,
+				41D097F91A76914F00980670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D097FA1A76914F00980670 /* Build configuration list for PBXNativeTarget "Generic RSS-JSON ParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D097FB1A76914F00980670 /* Debug */,
+				41D097FC1A76914F00980670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41D097CC1A76914F00980670 /* Project object */;
+}
